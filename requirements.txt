@@ -1,0 +1,4 @@
+# Pin mcp to 1.x on purpose — the API surface changed in 2.x and this code targets 1.30.0.
+mcp[cli]==1.30.0
+uvicorn>=0.30
+pydantic>=2

@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# runtime data (never commit the people you talk to)
+inbox.json
+state.json
+media/
+stickers/
+sticker-notes.json
+
+# deps / build
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db

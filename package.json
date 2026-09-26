@@ -1,0 +1,13 @@
+{
+  "name": "imessage-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A managed iMessage line for your AI agent, exposed as an MCP server. Messages in land in an inbox; messages out actually get sent. The brain lives elsewhere.",
+  "scripts": {
+    "start": "node line.mjs"
+  },
+  "dependencies": {
+    "@spectrum-ts/imessage": "^12.10.1",
+    "spectrum-ts": "^12.10.1"
+  }
+}
